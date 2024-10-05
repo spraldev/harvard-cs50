@@ -1,0 +1,1 @@
+SELECT name FROM movies INNER JOIN stars ON movies.id = stars.movie_id INNER JOIN people ON stars.person_id = people.id WHERE movie_id in (SELECT movie_id FROM stars WHERE person_id = (SELECT id FROM people WHERE name = 'Kevin Bacon')) AND name != "Kevin Bacon";

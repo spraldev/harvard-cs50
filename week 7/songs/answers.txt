@@ -1,0 +1,2 @@
+
+SQL is really fun. Several things such as CONTAINS did not work however. I already knew most of these things without having to watch the lectures, but I also needed w3 schools sometimes.
